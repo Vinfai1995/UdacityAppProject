@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纳米学位应用"
+        android:paddingTop="36dp"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/one"
+        style="@style/style2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="热门电影"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="ToastMethod1"
+        />
+    <Button
+        android:id="@+id/two"
+        style="@style/style2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="股票雄鹰"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="ToastMethod2"
+
+        />
+    <Button
+        android:id="@+id/three"
+        style="@style/style2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="XYZ阅读器"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="ToastMethod3"
+
+        />
+    <Button
+        android:id="@+id/four"
+        style="@style/style2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="最新闻"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="ToastMethod4"
+
+        />
+    <Button
+        android:id="@+id/five"
+        style="@style/style2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="毕业设计"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="ToastMethod5"
+
+        />
+</LinearLayout>
