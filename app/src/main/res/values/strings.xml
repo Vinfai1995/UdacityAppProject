@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Project0</string>
+    <string name="nano_app">纳米学位应用</string>
+    <string name="movie">热门电影</string>
+    <string name="stock">股票雄鹰</string>
+    <string name="reader">XYZ阅读器</string>
+    <string name="news">最新闻</string>
+    <string name="graduation">毕业设计</string>
 </resources>

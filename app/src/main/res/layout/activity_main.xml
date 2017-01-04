@@ -7,66 +7,43 @@
     >
 
     <TextView
-        android:id="@+id/TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="纳米学位应用"
+        android:id="@+id/nano_app"
+        android:text="@string/nano_app"
         android:paddingTop="36dp"
-        android:textSize="24sp"
-        android:layout_gravity="center_horizontal"
+        style="@style/TextViewStyle"
         />
     <Button
-        android:id="@+id/one"
-        style="@style/style2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="热门电影"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="ToastMethod1"
+        android:id="@+id/movie_button"
+        style="@style/ButtonStyle"
+        android:text="@string/movie"
+        android:onClick="toastMethodMovie"
         />
     <Button
-        android:id="@+id/two"
-        style="@style/style2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="股票雄鹰"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="ToastMethod2"
+        android:id="@+id/stock_button"
+        style="@style/ButtonStyle"
+        android:text="@string/stock"
+        android:onClick="toastMethodStock"
 
         />
     <Button
-        android:id="@+id/three"
-        style="@style/style2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="XYZ阅读器"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="ToastMethod3"
+        android:id="@+id/reader_button"
+        style="@style/ButtonStyle"
+        android:text="@string/reader"
+        android:onClick="toastMethodReader"
 
         />
     <Button
-        android:id="@+id/four"
-        style="@style/style2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="最新闻"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="ToastMethod4"
+        android:id="@+id/news_button"
+        style="@style/ButtonStyle"
+        android:text="@string/news"
+        android:onClick="toastMethodNews"
 
         />
     <Button
-        android:id="@+id/five"
-        style="@style/style2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="毕业设计"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="ToastMethod5"
+        android:id="@+id/graduation_button"
+        style="@style/ButtonStyle"
+        android:text="@string/graduation"
+        android:onClick="toastMethodGraduation"
 
         />
 </LinearLayout>

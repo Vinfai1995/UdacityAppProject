@@ -17,19 +17,19 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    public void ToastMethod1(View view) {
-        Toast.makeText(MainActivity.this, "启动应用：热门电影", Toast.LENGTH_SHORT).show();
+    public void toastMethodMovie(View view) {
+        Toast.makeText(this, "启动应用：热门电影", Toast.LENGTH_SHORT).show();
     }
-    public void ToastMethod2(View view) {
-        Toast.makeText(MainActivity.this, "启动应用：股票雄鹰", Toast.LENGTH_SHORT).show();
+    public void toastMethodStock(View view) {
+        Toast.makeText(this, "启动应用：股票雄鹰", Toast.LENGTH_SHORT).show();
     }
-    public void ToastMethod3(View view) {
-        Toast.makeText(MainActivity.this, "启动应用：XYZ阅读器", Toast.LENGTH_SHORT).show();
+    public void toastMethodReader(View view) {
+        Toast.makeText(this, "启动应用：XYZ阅读器", Toast.LENGTH_SHORT).show();
     }
-    public void ToastMethod4(View view) {
-        Toast.makeText(MainActivity.this, "启动应用：最新闻", Toast.LENGTH_SHORT).show();
+    public void toastMethodNews(View view) {
+        Toast.makeText(this, "启动应用：最新闻", Toast.LENGTH_SHORT).show();
     }
-    public void ToastMethod5(View view) {
-        Toast.makeText(MainActivity.this, "启动应用：毕业设计", Toast.LENGTH_SHORT).show();
+    public void toastMethodGraduation(View view) {
+        Toast.makeText(this, "启动应用：毕业设计", Toast.LENGTH_SHORT).show();
     }
 }
